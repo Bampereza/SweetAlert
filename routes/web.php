@@ -64,7 +64,7 @@ Route::put('/updatem/{id}', [\App\Http\Controllers\MercanciaController::class, '
 Route::get('/showm/{id}', [\App\Http\Controllers\MercanciaController::class, 'showm'])->name('mercancias.showm');
 Route::delete('/destroym/{id}', [\App\Http\Controllers\MercanciaController::class, 'destroym'])->name('mercancias.destroym');
 
-//Route::get('/fhome', [\App\Http\Controllers\ControladorController::class,  'fhome'])->name('layout/home');
+Route::get('/fhome', [\App\Http\Controllers\ControladorController::class,  'fhome'])->name('layout/home');
 
 
 

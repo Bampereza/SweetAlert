@@ -154,7 +154,6 @@
 
 
 
-
     <div class="container">
         <br><br>
         @yield('error402')

@@ -19,12 +19,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        Transporte::factory(50)->create();
+        Transporte::factory(10)->create();
         Camion::factory(50)->create();
-        Personas::factory(50)->create();
-        Predio::factory(50)->create();
-        Tipo_mercancia::factory(50)->create();
-        Mercancia::factory(50)->create();
+        Personas::factory(10)->create();
+        Predio::factory(10)->create();
+        Tipo_mercancia::factory(10)->create();
+        Mercancia::factory(10)->create();
 
 
 

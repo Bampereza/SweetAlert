@@ -29,7 +29,7 @@ class CamionController extends Controller
 
     public function storec(Request $request)
     {
-        //Sirve para guardar datos en la base de datos
+        //Sirve para guardar datos en la base de datos, esta en la vista agregar camion
         $camiones = new Camion();
         $camiones->id = $request->post('id');
         $camiones->placa_camion = $request->post('placa_camion');
@@ -40,7 +40,7 @@ class CamionController extends Controller
         $camiones->transporte_codigo = $request->post('transporte_codigo');
         $camiones->save();
 
-        return redirect()->route("camiones.indexc")->with("success", "Agregado con exito!");
+        return redirect()->route("camiones.indexc");
     }
 
     public function showc($id)
@@ -61,7 +61,7 @@ class CamionController extends Controller
 
     public function updatec(Request $request, $id)
     {
-        //Este método actualiza los datos en la base de datos
+        //Este método actualiza los datos en la base de datos, esta en la vista actualizar
         $camiones = Camion::find($id);
         $camiones->id = $request->post('id');
         $camiones->placa_camion = $request->post('placa_camion');
@@ -79,10 +79,10 @@ class CamionController extends Controller
 
 //    public function delete($id)
     {
-//        Elimina un registro
+//        Elimina un registro, se encuentra en la vista eliminar
         $camiones = Camion::find($id);
         $camiones->delete();
-        return redirect()->route("camiones.indexc")->with("success", "Eliminado con exito!");
+        return redirect()->route("camiones.indexc");
 
 
 //        try {

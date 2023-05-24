@@ -7,6 +7,7 @@
 
     <div class="card" xmlns="http://www.w3.org/1999/html">
         <h5 class="card-header">CAMIONES</h5>
+        <h7 class="card-header">inicio-camion</h7>
         <div class="card-body">
             <div class="row">
                 <div class="col-sm-12">
@@ -90,7 +91,7 @@
                             </td>
 
                             <td>
-                                <form action="{{ route("camiones.showc", $item->id) }}" method="GET">
+                                <form action="{{ route("camiones.showc", $item->id) }}"  method="GET">
                                     <button class="btn btn-danger btn-sm">
                                         <span class="fas fa-user-times"></span>
                                     </button>
@@ -119,15 +120,6 @@
 
         </div>
     </div>
-
-
-{{--
-        <div class="row">
-            <h1>Hola usando Layouts</h1>
-            <i class="Fab fa-500px"></i>
-            <a href="{{ route('transportes.create') }}">Agregar</a>
-        </div>
- --}}
 
 @endsection
 

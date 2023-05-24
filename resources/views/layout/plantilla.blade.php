@@ -8,10 +8,13 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+{{--    Esto es para los botones de agregar, eliminar, etc.--}}
     <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
 
 
-{{--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">--}}
+
+
+    {{--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">--}}
 
 
 
@@ -96,61 +99,61 @@
 
 
 
-@section('sidebar')
-    @parent
-    <br>
-    <h3><div class="text-center" >
-            Sistema para el registro de transacciones
-        </div>
-    </h3>
-@endsection
+{{--@section('sidebar')--}}
+{{--    @parent--}}
+{{--    <br>--}}
+{{--    <h3><div class="text-center" >--}}
+{{--            Sistema para el registro de transacciones--}}
+{{--        </div>--}}
+{{--    </h3>--}}
+{{--@endsection--}}
 
-@section('carousel')
+{{--@section('carousel')--}}
 
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="Kenworth1.jpeg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Transportes internacionales</h5>
-                    <p>SOMOS LOS PIONEROS.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="Kenworth2.jpeg" class="d-block w-100" alt="Kenworth Clasico">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Venta de transporte</h5>
-                    <p>A LOS MEJORES PRECIOS.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="Kenworth3.jpeg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Traslado de cargas pesadas</h5>
-                    <p>A TODAS PARTES DEL MUNDO.</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+{{--    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">--}}
+{{--        <div class="carousel-indicators">--}}
+{{--            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>--}}
+{{--            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>--}}
+{{--            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>--}}
+{{--        </div>--}}
+{{--        <div class="carousel-inner">--}}
+{{--            <div class="carousel-item active">--}}
+{{--                <img src="Kenworth1.jpeg" class="d-block w-100" alt="...">--}}
+{{--                <div class="carousel-caption d-none d-md-block">--}}
+{{--                    <h5>Transportes internacionales</h5>--}}
+{{--                    <p>SOMOS LOS PIONEROS.</p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="carousel-item">--}}
+{{--                <img src="Kenworth2.jpeg" class="d-block w-100" alt="Kenworth Clasico">--}}
+{{--                <div class="carousel-caption d-none d-md-block">--}}
+{{--                    <h5>Venta de transporte</h5>--}}
+{{--                    <p>A LOS MEJORES PRECIOS.</p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="carousel-item">--}}
+{{--                <img src="Kenworth3.jpeg" class="d-block w-100" alt="...">--}}
+{{--                <div class="carousel-caption d-none d-md-block">--}}
+{{--                    <h5>Traslado de cargas pesadas</h5>--}}
+{{--                    <p>A TODAS PARTES DEL MUNDO.</p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">--}}
+{{--            <span class="carousel-control-prev-icon" aria-hidden="true"></span>--}}
+{{--            <span class="visually-hidden">Previous</span>--}}
+{{--        </button>--}}
+{{--        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">--}}
+{{--            <span class="carousel-control-next-icon" aria-hidden="true"></span>--}}
+{{--            <span class="visually-hidden">Next</span>--}}
+{{--        </button>--}}
+{{--    </div>--}}
 
-    <a href="https://www.google.com/">Ir google</a>
+{{--    <a href="https://www.google.com/">Ir google</a>--}}
 
-    </div>
+{{--    </div>--}}
 
-@endsection
+{{--@endsection--}}
 
 
 
@@ -177,32 +180,44 @@
 
     <div class="container">
         <br><br>
-    @yield('contenido')
+        @yield('contenido')
+        @yield('alert')
     </div>
 
     <div class="container">
         <br>
         @yield('contenidot')
+        @yield('alertt')
     </div>
 
     <div class="container">
         <br>
         @yield('contenidoc')
+        @yield('alertc')
+
     </div>
+
+<div class="container">
+    <br>
+
+</div>
 
     <div class="container">
         <br>
         @yield('contenidop')
+        @yield('alertp')
     </div>
 
     <div class="container">
         <br>
         @yield('contenidotm')
+        @yield('alerttm')
     </div>
 
     <div class="container">
         <br>
         @yield('contenidom')
+        @yield('alertm')
     </div>
 
 
@@ -214,6 +229,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 {{--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>--}}
+
+{{--SweetAlert--}}
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
 </body>

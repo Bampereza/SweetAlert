@@ -18,7 +18,6 @@
 
                     @endif
 
-
                 </div>
             </div>
             <h5 class="card-title text-center">Listado de transportes en el sistema</h5>

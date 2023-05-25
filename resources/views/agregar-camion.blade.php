@@ -62,7 +62,6 @@
 
 {{--) @endif--}}
 
-
     <script>
         $('.xx').submit(function (e) {
             e.preventDefault();

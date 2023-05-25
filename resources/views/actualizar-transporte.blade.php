@@ -14,6 +14,7 @@
             <form action="{{ route('transportes.updatet', $transportes->id)}}" method="POST">
                 @csrf
                 @method("PUT")
+
                 <label for="">id</label>
                 <input type="text" name="id" class="form-control" required value="{{$transportes->id}}">
                 <label for="">Nombre</label>

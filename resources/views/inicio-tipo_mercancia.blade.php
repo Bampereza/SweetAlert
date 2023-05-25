@@ -17,7 +17,6 @@
 
                     @endif
 
-
                 </div>
             </div>
             <h5 class="card-title text-center">Listado de tipos de mercancia en el sistema</h5>

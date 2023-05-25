@@ -3,6 +3,7 @@
 @section("tituloPagina", "crear un nuevo registro")
 
 @section('contenidot')
+
     <div class="card">
         <h5 class="card-header">Actualizar nuevo transporte</h5>
         <h7>Plantilla de actualizar-transporte/editt</h7>

@@ -3,6 +3,7 @@
 @section("tituloPagina", "crear un nuevo registro")
 
 @section('contenido')
+
     <div class="card">
         <h5 class="card-header">Actualizar nueva persona</h5>
         <div class="card-body">

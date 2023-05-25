@@ -3,6 +3,7 @@
 @section("tituloPagina", "crear un nuevo registro")
 
 @section('contenidotm')
+
     <div class="card">
         <h5 class="card-header">Actualizar nuevo Tipo_mercancia</h5>
         <div class="card-body">

@@ -3,6 +3,7 @@
 @section("tituloPagina", "crear un nuevo registro")
 
 @section('contenidoc')
+
     <div class="card">
         <h5 class="card-header">Actualizar nuevo camion</h5>
         <div class="card-body">
